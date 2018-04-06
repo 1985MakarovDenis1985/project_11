@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+ @font-face {
+  font-family: 'Montserrat-ExtraLight';
+  src: url("../fonts/Montserrat/Montserrat-ExtraLight.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+/*HEADER*/
+.wrap_header{
+	position: absolute;
+	width: 1920px;
+	height: 820px;
+	background: url(../img/shadow.png);
+}
+.header {
+  width: 1920px;
+  height: 820px;
+  border: 1px solid black;
+  background-image: url(../img/food_first.png); 
+}
+
+.header_nav{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header_nav>li{
+	display: inline-block;
+	margin-left: 60px;
+	margin-top: 50px;
+	font-family: 'Montserrat-Medium';
+	height: 30px;
+	border-bottom: 3px solid transparent;
+	cursor: pointer;
+}
+
+.header_nav>li>a{
+	opacity: 0.5; 
+}
+
+.header_nav>li:hover>a{
+	opacity: 1; 
+}
+
+.header_nav>li:hover{
+	border-bottom: 3px solid white;
+}
+
+.header_logo{
+	width: 270px;
+	display: block;
+	margin-top: 370px;
+	margin-bottom: 130px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header_button{
+	font-family: 'Montserrat-Regular';
+	font-size: 14px;
+	margin-top: 70px;
+	width: 150px;
+	height: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: transparent;
+	color: white;
+	border: 2px solid white;
+	cursor: pointer;
+}
+
+.header_button:hover{
+	border: 3px solid white;
+}
+
+/*UNDERFUTER*/
+
+.underheader{
+	display: block;
+	width: 1920px;
+	height: 669px;
+	background-image: url(../img/BG_1.png);
+}
+
+.underheader_first{
+	position: absolute;
+	margin-top: 109px;
+	margin-left: 288px;
+	width: 285px;
+	height: 451px;
+	background-image: url(../img/man.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.underheader_second{
+	position: absolute;
+	margin-top: 109px;
+	margin-left: 607px;
+	width: 290px;
+	height: 451px;
+	background-image: url(../img/women.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
