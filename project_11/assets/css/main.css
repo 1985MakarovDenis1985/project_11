@@ -28,6 +28,12 @@
   font-weight: normal;
   font-style: normal; }
 
+   @font-face {
+  font-family: 'Montserrat-Light';
+  src: url("../fonts/Montserrat/Montserrat-Light.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
 
 a{
 	text-decoration: none;
@@ -178,9 +184,6 @@ a{
 }
 
 
-
-
-
 div.slider_box_img{
 	z-index: 5;
 	position: relative;
@@ -206,9 +209,6 @@ div.slider_box_img_third{
 	background-image: url(../img/omar.png);
 	background-size: cover;
 }
-
-
-
 
 .slider_box_line{
 	width: 1920px;
@@ -291,12 +291,16 @@ div.slider_box_img_third{
 					font-size: 50px;
 					color: white;
 					background: transparent;
+					-webkit-background: transparent;
     				border: none;
     				outline: none;
 				}
 
 				.arrow_left{
-					margin-top: 810px
+					margin-top: 810px;
+					background: transparent;
+    				border: none;
+    				outline: none;
 				}
 
 				.arrow_right{
@@ -304,5 +308,125 @@ div.slider_box_img_third{
 					margin-top: -210px;
 				}
 
+.underslider_box{
+	width: 1920px;
+	height: 1080px;
+	background-image:  url(../img/background_3.png);
+}
+
+div.underslider_box_top{
+	width: 945px;
+	height: 431px;
+	float:right;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+	div.underslider_box_top_img{
+		position: relative;
+		width: 945px;
+		height: 431px;
+	}
+
+			div.--first{
+				background-image: url(../img/dedert-1.png);
+				background-position: 0px -50px;
+
+			}	
+
+			div.--second{
+				background-image: url(../img/desert-2.png);
+				background-position: 0px -50px;
+
+
+			}
+		
+			div.--third{
+				background-image: url(../img/desert-3.png);
+				background-position: 0px -100px;
+			}
+
+div.underslider_box_botton{
+	width: 945px;
+	height: 431px;
+	float:right;
+	margin-top: 50px;
+	margin-right: 50px;
+	background: green;
+}
+
+	div.underslider_box_botton_img{
+		position: relative;
+		width: 945px;
+		height: 431px;
+	}
+
+			div.--botton_first{
+				background-image: url(../img/tea-2.png);
+				background-size: cover;
+				background-position: 0px -80px;
+			}	
+
+			div.--botton_second{
+				background-image: url(../img/coffee-2.png);
+				background-position: 0px -50px;
+			}
+		
+			div.--botton_third{
+				background-image: url(../img/tea-1.png);
+				background-position: 0px -100px;
+			}
+
+.underslider_box_text{
+	color: white;
+	font-family: 'Montserrat-Medium';
+	font-size: 31px;
+	padding-left: 200px;
+	padding-top: 200px;
+}
+
+.underslider_box_text_second{
+	color: white;
+	font-family: 'Montserrat-Regular';
+	line-height: 27px;
+	font-size: 18px;
+	margin-top: 30px;
+	margin-left: 200px;
+}
+
+.underslider_box_text_third{
+	color: white;
+	font-family: 'Montserrat-Regular';
+	line-height: 27px;
+	font-size: 14px;
+	margin-top: 30px;
+	margin-left: 200px;
+}
+
+.underslider_box_text_fourth{
+	color: #c10f1c;
+	margin-left: 200px;
+	line-height: 40px;
+}
+
+			.--fourth{
+				margin-top: 50px;
+			}
+
+			.text_white_top{
+				display: block;
+				position: absolute;
+				color: white;
+				margin-left: 490px;
+				margin-top: -23px;
+			}
+
+			.text_white_botton{
+				display: block;
+				position: absolute;
+				color: white;
+				margin-left: 360px;
+				margin-top: -24px;
+
+			}
 
 
