@@ -16,6 +16,18 @@
   font-weight: normal;
   font-style: normal; }
 
+ @font-face {
+  font-family: 'Montserrat-Bold';
+  src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+ @font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
 
 a{
 	text-decoration: none;
@@ -86,10 +98,15 @@ a{
 	color: white;
 	border: 2px solid white;
 	cursor: pointer;
+	outline: none;
 }
 
 .header_button:hover{
-	border: 3px solid white;
+	box-shadow: 0px 0px 15px 1px white;
+}
+
+.header_button:active{
+	box-shadow: 0px 0px 25px 5px white;
 }
 
 /*UNDERFUTER*/
@@ -122,3 +139,170 @@ a{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+.text_top{
+	font-family: 'Montserrat-Regular';
+	font-size: 32px;
+	color: white;
+	line-height: 40px;
+	margin-left: 950px;
+	padding-top: 150px;
+}
+
+.text_center{
+	font-family: 'Montserrat-Regular';
+	font-size: 18px;
+	color: white;
+	line-height: 30px;
+	margin-left: 950px;
+	padding-top: 30px;
+}
+
+.text_bottom{
+	font-family: 'Montserrat-Regular';
+	font-size: 14px;
+	color: white;
+	line-height: 20px;
+	margin-left: 950px;
+	padding-top: 30px;
+}
+
+
+
+/*SLIDER*/
+.slider_box{
+	position: relative;
+	width: 1920px;
+	height: 1020px;
+	z-index: 1
+}
+
+
+
+
+
+div.slider_box_img{
+	z-index: 5;
+	position: relative;
+	width: 1920px;
+	height: 1020px;
+	background-image: url(../img/food_one.png);
+	background-size: cover;
+}
+div.slider_box_img_second{
+	z-index: 5;
+	position: relative;
+	width: 1920px;
+	height: 1020px;
+	background-image: url(../img/pizza.png);
+	background-size: cover;
+}
+
+div.slider_box_img_third{
+	z-index: 5;
+	position: relative;
+	width: 1920px;
+	height: 1020px;
+	background-image: url(../img/omar.png);
+	background-size: cover;
+}
+
+
+
+
+.slider_box_line{
+	width: 1920px;
+	height: 190px;
+	margin-top: 750px;	
+}
+
+.slider_box_line_first{
+	width: 800px;
+	height: 190px;
+	background: rgba(4,4,4,0.8); 	
+	float: left; 
+}
+
+.slider_box_line_second{
+	float: right;
+	width: 1120px;
+	height: 190px;
+	background: rgba(4,4,4,0.97); 	
+}
+
+.slider_box_line_first_text{
+	color: white;
+	float: right;
+	margin-right: 100px;
+}
+
+.--top{
+	margin-top: 60px;
+	font-size: 28px;
+	font-family: 'Montserrat-Bold';
+}
+
+.--bottom{
+	font-size: 14px;
+	font-family: 'Montserrat-SemiBold';
+	margin-top: 20px;
+	margin-left: 500px;
+	opacity: 0.5;
+}
+
+.slider_box_line_second_text{
+	color: white;
+	font-family: 'Montserrat-Regular';
+	font-size: 14px;
+	line-height: 25px;
+	margin-top: 58px;
+	margin-left: 90px;
+	opacity: 0.8
+}
+
+.slider_box_line_second_button{
+	position: absolute;
+	color: white;
+	font-size: 16px;
+	font-family: 'Montserrat-Regular';
+	border: 2px solid white;
+	background: transparent;
+	padding: 18px 30px;
+	margin-left: 730px;
+	margin-top: -45px;
+	border-radius: 2px;
+	outline: none;
+}
+
+.slider_box_line_second_button:hover{
+	 box-shadow: 0px 0px 15px 1px white;
+	 cursor: pointer;
+}
+
+.slider_box_line_second_button:active{
+	box-shadow: 0px 0px 25px 5px white;
+}
+
+				.arrow_left, .arrow_right{
+					position: absolute;
+					margin-right: 50px;
+					margin-left: 50px;
+					z-index: 100;
+					font-size: 50px;
+					color: white;
+					background: transparent;
+    				border: none;
+    				outline: none;
+				}
+
+				.arrow_left{
+					margin-top: 810px
+				}
+
+				.arrow_right{
+					margin-left: 1810px;
+					margin-top: -210px;
+				}
+
+
+
