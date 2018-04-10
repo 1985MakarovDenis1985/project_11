@@ -318,7 +318,7 @@ div.underslider_box_top{
 	width: 945px;
 	height: 431px;
 	float:right;
-	margin-top: 50px;
+	margin-top: 80px;
 	margin-right: 50px;
 }
 	div.underslider_box_top_img{
@@ -379,7 +379,7 @@ div.underslider_box_botton{
 .underslider_box_text{
 	color: white;
 	font-family: 'Montserrat-Medium';
-	font-size: 31px;
+	font-size: 31pt;
 	padding-left: 200px;
 	padding-top: 200px;
 }
@@ -388,7 +388,7 @@ div.underslider_box_botton{
 	color: white;
 	font-family: 'Montserrat-Regular';
 	line-height: 27px;
-	font-size: 18px;
+	font-size: 18pt;
 	margin-top: 30px;
 	margin-left: 200px;
 }
@@ -397,7 +397,7 @@ div.underslider_box_botton{
 	color: white;
 	font-family: 'Montserrat-Regular';
 	line-height: 27px;
-	font-size: 14px;
+	font-size: 14pt;
 	margin-top: 30px;
 	margin-left: 200px;
 }
@@ -406,27 +406,119 @@ div.underslider_box_botton{
 	color: #c10f1c;
 	margin-left: 200px;
 	line-height: 40px;
+	font-family: 'Montserrat-Light';
+
 }
 
 			.--fourth{
 				margin-top: 50px;
 			}
 
+			.--fourth>a{
+				color: red;
+				font-family: 'Montserrat-Light';
+				font-size: 12pt;
+			}
+
 			.text_white_top{
 				display: block;
 				position: absolute;
 				color: white;
-				margin-left: 490px;
-				margin-top: -23px;
+				margin-left: 500px;
+				margin-top: -28px;
+				font-family: 'Montserrat-Light';
+
 			}
 
 			.text_white_botton{
 				display: block;
 				position: absolute;
 				color: white;
-				margin-left: 360px;
-				margin-top: -24px;
-
+				margin-left: 370px;
+				margin-top: -30px;
+				font-family: 'Montserrat-Light';
 			}
+					.text_white_botton>i{
+						margin-right: 10px;
+					}
+
+/*COOK*/
+.our_cook_wrap{
+	width: 1920px;
+	height: 570px;
+	position: relative;
+}
+	
+		div.our_cook_box{
+			width: 980px;
+			height: 570px;
+			position: relative;
+		}
+
+			div.our_cook_slide{
+				width: 980px;
+				height: 570px;
+			}
+
+			div.--cook-one{
+				background-image: url(../img/cook_2.png);
+				background-size: cover;
+			}
+
+			div.--cook-two{
+				background-image: url(../img/cook_1.png);
+				background-size: cover;
+			}
+
+			div.--cook-three{
+				background-image: url(../img/cook_3.png);
+				background-size: cover;
+			}
+
+
+.our_cook_box_after{
+	width: 940px;
+	height: 570px;
+	background-image: url(../img/tea-3.1.png);
+	background-size: cover;
+	position: absolute;
+	margin-top: -570px;
+	margin-left: 980px;
+	color: white;
+}
+
+	.our_cook_box_after_text_first{
+		font-family: 'Montserrat-Medium';
+		font-size: 24pt;
+		margin-top: 100px;
+		margin-left: 100px;
+	}
+
+	.our_cook_box_after_text_second{
+		font-family: 'Montserrat-Medium';
+		font-size: 31pt;
+		margin-top: 10px;
+		margin-left: 100px;
+	}
+	.our_cook_box_after_text_third{
+		font-family: 'Montserrat-Medium';
+		font-size: 24pt;
+		margin-top: 30px;
+		margin-left: 100px;		
+	}
+	.our_cook_box_after_text_fourt{
+		font-family: 'Montserrat-Medium';
+		font-size: 22pt;
+		margin-top: 30px;
+		margin-left: 100px;
+		line-height: 45px;		
+	}
+
+
+
+
+
+
+
 
 

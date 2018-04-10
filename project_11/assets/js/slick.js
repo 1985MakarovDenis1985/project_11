@@ -33,9 +33,34 @@ $('.underslider_box_botton').slick({
   adaptiveHeight: true,
   arrows: false,
   autoplay: true,
-  autoplaySpeed: 7000,
+  autoplaySpeed: 3000,
   cssEase: 'linear',
   fade: true,
-
 });
 
+
+$('.our_cook_box').slick({
+  dots: false,
+  infinite: false,
+  speed: 1100,
+  slidesToShow: 1,
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  cssEase: 'linear',
+});
+
+
+
+
+$('.our_cook_box_after').slick({
+  dots: false,
+  infinite: false,
+  speed: 1100,
+  slidesToShow: 1,
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  cssEase: 'linear',
+  fade: true,
+});
