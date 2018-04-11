@@ -115,65 +115,7 @@ a{
 	box-shadow: 0px 0px 25px 5px white;
 }
 
-/*UNDERFUTER*/
 
-.underheader{
-	position: relative;
-	z-index: 100;
-	display: block;
-	width: 1920px;
-	height: 669px;
-	background-image: url(../img/BG_1.png);
-}
-
-.underheader_first{
-	position: absolute;
-	margin-top: 109px;
-	margin-left: 288px;
-	width: 285px;
-	height: 451px;
-	background-image: url(../img/man.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.underheader_second{
-	position: absolute;
-	margin-top: 109px;
-	margin-left: 607px;
-	width: 290px;
-	height: 451px;
-	background-image: url(../img/women.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.text_top{
-	font-family: 'Montserrat-Regular';
-	font-size: 32px;
-	color: white;
-	line-height: 40px;
-	margin-left: 950px;
-	padding-top: 150px;
-}
-
-.text_center{
-	font-family: 'Montserrat-Regular';
-	font-size: 18px;
-	color: white;
-	line-height: 30px;
-	margin-left: 950px;
-	padding-top: 30px;
-}
-
-.text_bottom{
-	font-family: 'Montserrat-Regular';
-	font-size: 14px;
-	color: white;
-	line-height: 20px;
-	margin-left: 950px;
-	padding-top: 30px;
-}
 
 /*MENU*/
 
@@ -237,14 +179,6 @@ a{
 				background-image: url(../img/coffee_menu.png);
 				width: 383px;
 			}
-
-
-
-			
-
-
-
-
 
 
 
@@ -520,6 +454,8 @@ div.underslider_box_botton{
 	width: 1920px;
 	height: 570px;
 	position: relative;
+	border-top: 5px solid red;	
+	border-bottom: 5px solid red;
 }
 	
 		div.our_cook_box{
@@ -596,34 +532,152 @@ div.underslider_box_botton{
 	/*FOOTER*/
 
 
-	.prefooterbox{
+	.hot_drink{
 		width: 1920px;
-		height: 500px;
-		background: green;
+		height: 400px;
+		background: black;
+		border-bottom: 10px solid red;
+
 	}
 
-	.prefooterbox_slide_left{
-		width: 700px;
-		height: 450px;
-		background: red;
-	}
+		.hot_drink_menu_box{
+			display: inline-block;
+			margin-right: -5px;
+			width: 640px;
+			height: 400px;
+			background-size: cover;
+			border-top: 5px solid red;
+			border-bottom: 5px solid red;
+		}
 
+				.hot_drink_menu_box>p{
+					display: block;
+					position: absolute;
+					width: 640px;
+					height: 400px;
+					background: rgba(0,0,0,0.7); 
+					color: white;
+	  				font-family: 'Montserrat-ExtraLight';
+					font-size: 45pt;
+					text-align: center;
+					padding-top: 175px;
+	  				font-family: 'Montserrat-ExtraLight';
+	  				box-sizing: border-box;
+	  				cursor: pointer;
+				}
 
+			.hot_drink_menu_box:hover>p{
+				background: rgba(0,0,0,0.1); 
 
+			}	
 
+			.--hot_drink_first{
+				background-image: url(../img/vine.png);
+			}
+
+			.--hot_drink_second{
+				background-image: url(../img/ginnes.png);
+			}
+
+			.--hot_drink_third{
+				background-image: url(../img/visky.png);
+			}
 
 
 
 
 	.footer{
 		width: 1920px;
-		height: 550px;
-		background: red;
+		height: 650px;
+		background: grey;
+		box-sizing: border-box;
+		color: white;
+		background-image: url(../img/footer.png);
 	}
 
+	.footer_wrap{
+		position: absolute;
+		z-index: 1;
+		width: 1920px;
+		height: 650px;
+		background: rgba(0,0,0,0.9); 
 
+	}
 
+		.footer_map{
+			z-index: 10;
+			position: absolute;
+			box-sizing: border-box;
+			width: 673px;
+			height: 410px;
+			margin-left: 100px;
+			margin-top: 120px;
+			background-image: url(../img/map.png);
+			background-size: cover;
+		}
 
+			.footer_text_first{
+				position: relative;
+				z-index: 10;
+				font-family: 'Montserrat-Medium';
+				font-size: 30pt;
+				margin-left: 900px;
+				padding-top: 100px;
+			}
+
+			.footer_text_second{
+				position: relative;
+				z-index: 10;
+				font-family: 'Montserrat-Medium';
+				font-size: 18pt;
+				margin-left: 900px;
+				padding-top: 45px;
+				line-height: 30px;
+			}
+
+			.footer_text_third{
+				position: relative;
+				z-index: 10;
+				font-family: 'Montserrat-Light';
+				font-size: 14pt;
+				margin-left: 900px;
+				padding-top: 30px;
+				line-height: 30px;
+			}
+
+			.footer_text_third>a{
+			 	color: red;
+			}
+
+			.footer_text_fourth{
+				position: relative;
+				z-index: 10;
+				font-size: 14pt;
+				margin-left: 900px;
+				padding-top: 30px;
+				line-height: 25px;
+				font-family: 'Montserrat-Regular';
+			}
+
+			.footer_text_adress{
+				position: relative;
+				z-index: 10;
+				font-size: 14pt;
+				margin-left: 930px;
+				padding-top: 1px;
+				line-height: 25px;
+				font-family: 'Montserrat-Regular';
+			}
+			
+			.footer_text_fifth{
+				position: absolute;
+				z-index: 10;
+				color: white;
+				font-family: 'Montserrat-Light';
+				margin-top: 60px;
+				margin-left: 210px;
+				color: gold;
+			}
 
 
 
