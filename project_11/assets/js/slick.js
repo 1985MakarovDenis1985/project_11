@@ -42,7 +42,7 @@ $('.underslider_box_botton').slick({
 $('.our_cook_box').slick({
   dots: false,
   infinite: false,
-  speed: 1100,
+  speed: 2100,
   slidesToShow: 1,
   arrows: false,
   autoplay: true,
@@ -56,7 +56,7 @@ $('.our_cook_box').slick({
 $('.our_cook_box_after').slick({
   dots: false,
   infinite: false,
-  speed: 1100,
+  speed: 2100,
   slidesToShow: 1,
   arrows: false,
   autoplay: true,
