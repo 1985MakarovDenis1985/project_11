@@ -50,7 +50,6 @@ a{
 .header {
   width: 1920px;
   height: 820px;
-  border: 1px solid black;
   background-image: url(../img/food_first.png); 
 }
 
@@ -68,10 +67,12 @@ a{
 	height: 30px;
 	border-bottom: 3px solid transparent;
 	cursor: pointer;
+	transition: border-bottom 0.5s;
 }
 
 .header_nav>li>a{
 	opacity: 0.5; 
+	transition: opacity 0.5s;
 }
 
 .header_nav>li:hover>a{
@@ -142,7 +143,6 @@ a{
 					.menu_item>p:hover{
 						background: rgba(0,0,0,0.1);
 						cursor: pointer; 
-
 					}
 
 					.menu_item>p{
@@ -156,6 +156,7 @@ a{
 						text-align: center;
 						padding-top: 45px;
 	  					font-family: 'Montserrat-ExtraLight';
+	  					transition: background 1s;
 					}
 
 
@@ -564,6 +565,7 @@ div.underslider_box_botton{
 	  				font-family: 'Montserrat-ExtraLight';
 	  				box-sizing: border-box;
 	  				cursor: pointer;
+	  				transition: background 0.5s;
 				}
 
 			.hot_drink_menu_box:hover>p{
